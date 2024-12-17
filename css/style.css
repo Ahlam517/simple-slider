@@ -1,0 +1,38 @@
+/* second slider */
+
+
+.caption{
+    bottom: 20px;
+    width: 80%;
+    left: 10%;
+}
+
+.item{
+    cursor: pointer;
+}
+
+.lightbox-container{
+    background-color: rgba(0 , 0 , 0 , 0.6);
+}
+
+.lightbox-item{
+    width: 40%;
+    height: 60vh;
+    background-image: url(./images/portfolio/1.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover ;
+}
+.lightbox-container .lightbox-item svg {
+    font-size: 20px !important;
+    margin: 10px !important;
+    cursor: pointer !important;
+    z-index: 10;
+}
+
+#close{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
